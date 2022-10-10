@@ -1,3 +1,41 @@
-table {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
     border: 3px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid green;
+    text-align: center;
+}
+/* menu*/
+.menu {
+    margin-left: auto;
+    align-self: center;
+}
+/* menu-list */
+.menu-list {
+    list-style: none;
+}
+header, .menu-list {
+    display: inline-flex;
+}
+.menu-list li {
+    padding-left: 0 5px;
+}
+header, footer {
+    background-color: darkgrey;
+}
+header img {
+    width: 5em;
+}
+header, main, footer {
+    min-width: 100%;
+}
+/* footer */
+footer p {
+    font-weight: bold;
 }
